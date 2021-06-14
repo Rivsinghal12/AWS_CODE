@@ -41,8 +41,8 @@ facebook.facebook();
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com");
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-		driver.findElement(By.id("email")).sendKeys("amitkashinwar@yahoo.in");
-		driver.findElement(By.id("pass")).sendKeys("Laksh@989126");		
+		driver.findElement(By.id("email")).sendKeys("******");
+		driver.findElement(By.id("pass")).sendKeys("*****");		
 		//Thread.sleep(1000);
 		driver.findElement(By.xpath("//button[@value='1']")).click();
 		
